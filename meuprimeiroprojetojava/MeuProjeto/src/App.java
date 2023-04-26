@@ -5,11 +5,14 @@ public class App {
         Scanner scan= new Scanner(System.in);
         String nome;
         int idade;
+        do{
+            System.out.println("Nome: ");
+            nome = scan.next();
+            System.out.println("idade: ");
+            idade = scan.nextInt();
+            System.out.println("O "+nome+" possui "+idade+" anos.");
 
-        System.out.println("Nome: ");
-        nome = scan.next();
-        System.out.println("idade: ");
-        idade = scan.nextInt();
-        System.out.println("O "+nome+" possui "+idade+" anos.");
+        }while(!nome.equals("0"));
+
     }
 }
