@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/*
+ * imprime o fatorial 
+ * ex: 5!=120
+ */
 public class Fatorial {
    public static void main (String[] args) {
     int multiplicacao = 1;
