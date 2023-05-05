@@ -9,7 +9,8 @@ public class NumerosAleatorios {
     public static void main(String[] args){
         int[] numerosAleatorios = new int[20];
         Random geradonumero = new Random();
-
+        
+        
         for(int i=0; i < numerosAleatorios.length; i++){
             numerosAleatorios[i] = geradonumero.nextInt(0,100);
         }
